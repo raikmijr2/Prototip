@@ -25,6 +25,7 @@ function draw() {
   for (let i = 0; i <= agujeros.lenght; i++){
     circle(agujeros[i][0], agujeros[i][1], 90);
   }
+  print(agujeros);
 
   
 }
