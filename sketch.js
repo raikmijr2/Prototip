@@ -40,5 +40,6 @@ function mousePressed() {
   // Verificar si el clic fue sobre el topo
   if (mostrarTopo && mouseX > topoX && mouseX < topoX + 80 && mouseY > topoY && mouseY < topoY + 80) {
     nuevoTopo(); // Mover el topo a otro agujero inmediatamente
+    //prova
   }
 }
